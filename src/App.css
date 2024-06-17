@@ -1,0 +1,86 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+/* nav-section */
+
+.nav-container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    padding: 15px 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-container ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-container ul li{
+    margin-right: 20px;
+}
+
+.discussion-image{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Home - section */
+
+.home-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-section h3{
+    text-align: center;
+}
+
+.discussion-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.discussion-link-container button{
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+
+/* user profile container */
+
+.user-profile-container div{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile-container button{
+    margin-bottom: 10px;
+}
+
+/* my discussions */
+
+.my-discussions h3{
+    text-align: center;
+}
+
+.my-discussions ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
